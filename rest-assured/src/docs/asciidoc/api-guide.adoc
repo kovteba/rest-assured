@@ -1,0 +1,52 @@
+= REST Assured
+Kovteba Dima <dmytro.kovteba@sigma.software>
+Version : {project-version}
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 7
+:sectlinks:
+:sectnums:
+:sectnumlevels: 6
+
+[#requests]
+== Requests
+
+=== Controller
+[source,json]
+include::{snippets}/controller/curl-request.adoc[]
+include::{snippets}/controller/http-request.adoc[]
+include::{snippets}/controller/http-response.adoc[]
+include::{snippets}/controller/httpie-request.adoc[]
+include::{snippets}/controller/request-body.adoc[]
+include::{snippets}/controller/response-body.adoc[]
+
+=== Controller 1
+[source,json]
+include::{snippets}/controller1/curl-request.adoc[]
+include::{snippets}/controller1/http-request.adoc[]
+include::{snippets}/controller1/http-response.adoc[]
+include::{snippets}/controller1/httpie-request.adoc[]
+include::{snippets}/controller1/request-body.adoc[]
+include::{snippets}/controller1/response-body.adoc[]
+
+[#Dependencies]
+== Dependencies
+
+.Project dependencies
+|====
+|*Dependency*|*Version*
+|rest-assured|{rest-assured-version}
+|spring-restdocs-restassured>|{spring-restdocs-restassured-version}
+|spring-restdocs-asciidoctor|{spring-restdocs-asciidoctor-version}
+|asciidoctor-maven-plugin|{asciidoctor-maven-plugin-version}
+|maven-site-plugin|{maven-site-plugin-version}
+|maven-compiler-plugin|{maven-compiler-plugin-version}
+|surefire-report-plugin|{surefire-report-plugin-version}
+|mapstruct|{mapstruct-version}
+|spring-boot-starter-test|{spring-boot-starter-test-version}
+|spring-boot-starter-hateoas|{spring-boot-starter-hateoas-version}
+|====
+
+

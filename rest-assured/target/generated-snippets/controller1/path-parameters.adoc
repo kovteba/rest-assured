@@ -1,0 +1,8 @@
+.+/controller/{number}+
+|===
+|Parameter|Description
+
+|`+number+`
+|Test path param
+
+|===

@@ -1,0 +1,6 @@
+[source,http,options="nowrap"]
+----
+GET /controller/1?value=1 HTTP/1.1
+Host: localhost:51788
+
+----
